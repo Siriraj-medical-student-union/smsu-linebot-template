@@ -1,0 +1,34 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://storage.googleapis.com/smsu-bot-beta-yebjlj.appspot.com/aboutus/1.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "https://storage.googleapis.com/smsu-bot-beta-yebjlj.appspot.com/aboutus/1.jpg"
+      }
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "รายละเอียดเพิ่มเติม",
+            "data": "aboutus-detail"
+          },
+          "style": "primary"
+        }
+      ]
+    }
+  }
+}
